@@ -1,0 +1,8 @@
+
+cd graystar3server
+javac -cp  . -sourcepath . *.java
+
+cd ..
+rm  LineListServer.jar
+jar cvmf mymanifest LineListServer.jar linelistserver/*.class
+
